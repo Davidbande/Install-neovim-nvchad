@@ -3,7 +3,7 @@ this is a simple script in bash for automatitation for installer neovim and nvch
 ## steps firts clone of repository 
 <pre><code></code></pre>
 ## then give it execution permissions
-<pre><code>cd chomd +x install-nvchad.sh</code></pre>
+<pre><code>chomd +x install-nvchad.sh</code></pre>
 ## run script
 <pre><code>./install-nvchad.sh</code></pre>
 ## once finish of install run of next command inside nvchad
