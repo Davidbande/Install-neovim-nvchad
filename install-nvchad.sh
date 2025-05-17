@@ -46,6 +46,10 @@ fi
 
 cd
 
+echo "Removing previous NvChad installation..."
+rm -rf ~/.config/nvim ~/.local/share/nvim ~/.cache/nvim
+echo "Previous installation removed. Ready for fresh install!"
+
 echo "🔽 Instalando NvChad si no está presente..."
 if [ ! -d "$HOME/.config/nvim" ]; then
     git clone https://github.com/NvChad/starter ~/.config/nvim
