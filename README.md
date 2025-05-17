@@ -6,7 +6,13 @@ this is a simple script in bash for automatitation for installer neovim and nvch
 <pre><code>cd Install-neovim-nvchad && chomd +x install-nvchad.sh</code></pre>
 ## run script
 <pre><code>./install-nvchad.sh</code></pre>
-## once finish of install run of next command 
+## once finish the install run of next command 
 <pre><code>nvim</code></pre>
+## now change or mode command in run this 
+<pre><code>MasonInstallAll</pre></code>
+
+<pre><code>Lazy sync</pre></code>
+## in your termianl delete file hide .git
+<pre><code>rm -rf $HOME/.config/nvim/.git</pre></code>
 ## Now everything is ready to use Neovim and NvChad. Enjoy!"
 
